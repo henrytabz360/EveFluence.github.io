@@ -1,0 +1,48 @@
+@import url('main.css');
+
+@media screen and (max-width: 350px)
+{
+    .intro {
+        flex-direction: column;
+    }
+
+    .call {
+        margin: 0 0 0.2rem 6vw;
+    }
+   
+    .app {
+       margin: 0 0 0.2rem 6vw;
+   }
+}
+
+@media screen and (max-width: 500px)
+{
+    .button {
+        margin: 0 4vw;
+    }
+
+    .call {
+        margin: 0 0 0.2rem 8vw;
+    }
+   
+    .app {
+       margin: 0 0 0.2rem 8vw;
+   }
+
+   .angle-text {
+    font-size: 90%;
+    margin: 0.1rem;
+   }
+
+   footer {
+    font-size: small;
+   }
+}
+
+@media screen and (min-width: 500.5px) and (max-width: 750px)
+{
+    .button {
+        margin: 0 4vw;
+    }
+}
+

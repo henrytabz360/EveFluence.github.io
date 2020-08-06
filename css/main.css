@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #ffe6ea;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+header {
+    background: #666666;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    height: 6vh;
+    width: 6vw;
+    background: black url('../img/logo.jpg') center no-repeat;
+    background-size: cover;
+    margin-right: 3rem;
+}
+
+.container {
+    height: 55vh;
+    width: 70vw;
+    background-color: #666666;
+    margin: 0.5rem auto 4rem auto;
+    /*display: none;*/
+}
+
+.slide-image {
+    height: 55vh;
+    width: 70vw;
+}
+
+.slide-image img {
+    opacity: 0.8;
+}
+
+.container-text {
+    height: 55vh;
+    width: 70vw;
+    position: absolute;
+    top: 50vh;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+    z-index: 3;
+}
+
+.fade{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s
+ }
+ @-webkit-keyframes fade{
+    from {opacity: .4}
+    to {opacity: 1}
+ }
+ @keyframes fade{
+    from {opacity: .4}
+    to {opacity: 1}
+ }
+
+ .intro {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .rule {
+     background-color: black;
+     width: 25vw;
+     height: 0.12rem;
+ }
+
+ .intro h3 {
+     font-weight: 100;
+ }
+
+ article {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+ }
+
+ .angle-text {
+    width: 30vw;
+ }
+
+ .rule2 {
+    background-color: black;
+    width: 60vw;
+    height: 0.12rem;
+    margin: auto;
+}
+
+ .contact {
+     width: 25vw;
+     margin: 1rem auto 0.9rem auto;
+     display: flex;
+     flex-direction: column;
+     
+ }
+
+ .call {
+     height: 8vh;
+     width: 10vw;
+     background: url('../img/call-logo.png') no-repeat;
+     background-size: contain;
+     margin: 0 0 0.2rem 10vw;
+ }
+
+ .app {
+    height: 8vh;
+    width: 10vw;
+    background: url('../img/whatsapp-logo.png') no-repeat;
+    background-size: contain;
+    margin: 0 0 0.2rem 10vw;
+}
+
+.button {
+    background-color: #006600;
+    height: auto;
+    width: auto;
+    padding: 0.5rem;
+    border-radius: 10px;
+    margin: 0 7vw;
+}
+
+.button a {
+    color: white;
+    display: block;
+    text-decoration: none;
+}
+
+.services-text {
+    margin: auto;
+    width: 50vw;
+}
+
+.services-offered {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.service {
+    background-color: #b3b3b3;
+    box-shadow: 0 3px 5px 0;
+    height: 8vh;
+    width: 15vw;
+    font-weight: 700;
+    margin: 1rem;
+}
+
+footer {
+    background-color: #1a1a1a;
+    color: white;
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
